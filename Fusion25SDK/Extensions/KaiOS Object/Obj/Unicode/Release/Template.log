@@ -1,0 +1,6 @@
+﻿     Creating library Obj\Unicode\Release\Template.lib and object Obj\Unicode\Release\Template.exp
+  Template.vcxproj -> C:\Users\Coats\Downloads\Fusion25SDK\Extensions\KaiOS Object\Obj\Unicode\Release\KaiOS.mfx
+  Copy file to installer directory
+  The system cannot find the file specified.
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets(138,5): error MSB3073: The command "copy C:\Users\Coats\Downloads\Fusion25SDK\Extensions\KaiOS Object\Obj\Unicode\Release\KaiOS.mfx .\ToInstall\Files\Extensions\Unicode
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets(138,5): error MSB3073: :VCEnd" exited with code 1.
