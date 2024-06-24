@@ -89,6 +89,7 @@ function CRunKaiOS()
 	
 	document.addEventListener("keydown", this.handleSoftKeys);
 	agent = navigator.userAgent;
+ var version = cnd.getParamExpression(this.rh, 0);
 				
 	switch (version) 
 	{
@@ -135,9 +136,11 @@ CRunKaiOS.prototype = CServices.extend(new CRunExtension(),
 			case "SoftLeft":
 				lskPressed = true;
 				console.log("softleft");
+     break;
 			case "SoftRight":
 				rskPressed = true;		
 				console.log("softleft");
+     break;
 		}
 	},
 	
